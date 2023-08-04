@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/images/favicon-32x32.png" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="assets/style.css">
+  <title>Frontend Mentor | News homepage</title>
+</head>
+
+<body>
+  <header>
+    <nav class="mobile-modo">
+      <div class="logo"><img src="assets/images/logo.svg" alt="" srcset=""></div>
+      <button class="navbar-toggle" onclick="toggleMenu()">
+        <span class="line1"></span>
+        <span class="line2"></span>
+        <span class="line3"></span>
+      </button>
+      <ul class="menu">
+        <li><a class="item1" href="https://www.youtube.com/watch?v=U1gMVr_zDPs">Home</a></li>
+        <li><a class="item2" href="#">New</a></li>
+        <li><a class="item3" href="#">Popular</a></li>
+        <li><a class="item4" href="#">Trending</a></li>
+        <li><a class="item5" href="#">Categories</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="principal mobile-modo">
+      <div class="container-pai-banner">
+        <div class="banner-principal">
+          <picture>
+            <source media="(max-width:700px)" srcset="assets/images/image-web-3-mobile.jpg" type="image/jpg">
+            <img src="assets/images/image-web-3-desktop.jpg" alt="">
+          </picture>
+        </div>
+        <div class="text-banner">
+          <div class="blue-text">
+            <h1 class="fonte-blue">The Bright <br> Future of <br> Web 3.0?</h1>
+          </div>
+          <div class="text-banner-button">
+            <span>We dive into the next evolution of the web that <br>claims to put the power of the platforms back <br>
+              into the
+              hands of the
+              people.
+              But is it really <br> fulfilling its promise?</span>
+            <a href="#"><button class="botao-read-more" type="button" id="read-more">Read more</button></a>
+          </div>
+        </div>
+      </div>
+      <div class="news-blue">
+        <div class="news-item-pai">
+          <h1 class="new">New</h1>
+          <div class="news-item">
+            <h2><a href="#">Hydrogen VS Electric Cars</a></h2>
+            <span>Will hydrogen-fueled cars ever catch up <br> to EVs?</span>
+          </div>
+          <hr>
+          <div class="news-item">
+            <h2><a href="#">The Downsides of AI Artistry</a></h2>
+            <span>What are the possible adverse effects of <br> on-demand AI image generation?</span>
+          </div>
+          <hr>
+          <div class="news-item">
+            <h2><a href="#">Is VC Funding Drying Up?</a></h2>
+            <span>Private funding by VC firms is down 50% <br> YOY. We take a look at what that means.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="artigos mobile-modo">
+      <div class="artigos-item">
+        <div>
+          <img src="assets/images/image-retro-pcs.jpg" alt="">
+        </div>
+        <div class="artigos-item-text artigos-first-item">
+          <div>01</div>
+          <div><a href="#">Reviving Retro PCs</a></div>
+          <div>What happens when old PCs<br>are given modern upgrades?</div>
+        </div>
+      </div>
+      <div class="artigos-item">
+        <div>
+          <img src="assets/images/image-top-laptops.jpg" alt="">
+        </div>
+        <div class="artigos-item-text">
+          <div>02</div>
+          <div><a href="#">Top 10 Laptops of 2022</a></div>
+          <div>Our best picks for various <br> needs and budgets.</div>
+        </div>
+      </div>
+      <div class="artigos-item">
+        <div>
+          <img src="assets/images/image-gaming-growth.jpg" alt="">
+        </div>
+        <div class="artigos-item-text">
+          <div>03</div>
+          <div><a href="#">The Growth of Gaming</a></div>
+          <div>How the pandemic has sparked <br> fresh opportunities.</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <section>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Carlos Pacheco</a>.
+    </div>
+  </section>
+</body>
+<script src="assets/main.js"></script>
+
+</html>
